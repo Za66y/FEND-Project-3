@@ -79,7 +79,16 @@ var Engine = (function(global) {
      */
     function update(dt) {
         updateEntities(dt);
-        // checkCollisions();
+        checkCollisions();
+    }
+
+    function checkCollisions() {
+        allEnemies.forEach(enemy => {
+            if(enemy.checkCollisions(player) || player.checkCollisions(enemy)) {
+                player.y = 5;
+                player.x = 2;
+            }
+        });
     }
 
     /* This is called by the update function and loops through all of the
@@ -91,7 +100,7 @@ var Engine = (function(global) {
      */
     function updateEntities(dt) {
         allEnemies.forEach(function(enemy) {
-            enemy.update(dt);
+        enemy.update(dt);
         });
         player.update();
     }
@@ -150,7 +159,7 @@ var Engine = (function(global) {
          * the render function you have defined.
          */
         allEnemies.forEach(function(enemy) {
-            enemy.render();
+        enemy.render();
         });
 
         player.render();
