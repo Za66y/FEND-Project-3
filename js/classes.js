@@ -1,3 +1,4 @@
+// Main class that is used for hero & enemies
 class Entity {
     constructor() {
         this.sprite = 'images/';
@@ -26,6 +27,7 @@ class Entity {
     }
 }
 
+// player class, character that will be used to receive input and navigate game
 class Player extends Entity {
     constructor() {
         super();
@@ -70,6 +72,8 @@ class Player extends Entity {
             this.moving = true;
         }
 }
+
+// enemies/bugs that travel across screen at different rates of movement
 
 class Enemy extends Entity {
     constructor (x, y) {

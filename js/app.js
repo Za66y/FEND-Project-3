@@ -33,9 +33,9 @@
 
 const player = new Player();
 const allEnemies = [...Array(3)].map((_,i)=> new Enemy(0,i+1));
-const bugOne = allEnemies[0];
-const bugTwo = allEnemies[1];
-const bugThree = allEnemies[2];
+const bugOne = allEnemies[0]; // single bug selector if necessary for customization
+const bugTwo = allEnemies[1]; // single bug selector if necessary for customization
+const bugThree = allEnemies[2]; // single bug selector if necessary for customization
 
 
 // This listens for key presses and sends the keys to your
