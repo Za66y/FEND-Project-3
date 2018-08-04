@@ -1,6 +1,18 @@
-frontend-nanodegree-arcade-game
+Project 3 - Arcade Game
 ===============================
-
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
-
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+My third project for the [Udacity](https://www.udacity.com) FEND nanodegree.  A new take on an old classic arcade game.
+<br>
+## Table of Contents
+- [Overview](#overview)
+    - [How to Play](#how-to-play)
+    - [Instructions](#instructions)
+    - [Documentation](#documentation)
+    - [Dependencies](#dependencies)
+    - [Acknowledgements](#acknowledgements)
+## How to Play
+1. Download this repo. 
+2. Launch the [index.html](./index.html) with your default browser.
+3. Get to the river!!!  
+<br>
+### Instructions
+You start as the hero and can use the left, right, up, and down arrow keys to maneuver from square to square.  Once you get to the road, you are vulnerable to oncoming enemies, or bugs!  Dodge them to make it safely to the river and win!
